@@ -54,7 +54,7 @@ public class VueloDeAvion {
 	
 	public int [] obtenerNumerosDeAsientosDisponibles () {
 		int [] asientosDisponibles = new int [this.cantidadDeAsientos];
-		int contador=0;
+		
 		for (int i=0;i<capacidad.length;i++) {
 			if(capacidad[i]==EstadoAsiento.DISPONIBLE) {
 				asientosDisponibles[i]++;
